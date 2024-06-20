@@ -28,7 +28,7 @@ const PlanForm: FC<PlanFormType> = ({ errors, control, isMonthly, setIsMonthly, 
             handleClick={(value: PlanOption) => field.onChange(value)}
             isActive={isActive}
             setIsActive={setIsActive}
-            selected={field.value}
+          // selected={field.value}
           />
         )}
       />
