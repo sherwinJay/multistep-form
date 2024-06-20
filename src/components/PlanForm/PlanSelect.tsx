@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import { plansData } from '../../data/data';
 
 
-const PlanSelect: FC<PlanSelectProps> = ({ options, handleClick, isMonthly, isActive, setIsActive, selected }) => {
+const PlanSelect: FC<PlanSelectProps> = ({ options, handleClick, isMonthly, isActive, setIsActive }) => {
 
   const handleSelect = (selectedOption: PlanOption) => {
     handleClick(selectedOption);

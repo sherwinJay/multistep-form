@@ -58,7 +58,7 @@ export type PlanSelectProps = {
   isMonthly: boolean
   isActive: string | null
   setIsActive: React.Dispatch<React.SetStateAction<string | null>>
-  selected: any
+  // selected: any
 }
 
 export type ToggleSwitchType = {
